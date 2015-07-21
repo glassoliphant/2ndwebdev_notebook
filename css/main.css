@@ -14,7 +14,7 @@
 primary color - (32, 204, 164)
 text color - 
 background color - (78, 247, 255) 
-accent color - (204, 32, 162)
+accent color - (204, 162, 32)
 warning color - (255, 144, 14)
 error color - (153, 133, 70)
 ============================================================================= */ 
@@ -25,7 +25,7 @@ html {
     line-height: 1.4;
 }
 body { 
- background: rgb(204, 32, 162);}
+ background: rgb(204, 162, 32);}
 article {
   background: rgb(32, 204, 164);
   border-color: rgb(40, 40, 40);

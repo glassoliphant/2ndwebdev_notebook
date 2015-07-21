@@ -24,6 +24,8 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+body { 
+ background: rgb(204, 32, 162);}
 article {
   background: rgb(32, 204, 164);
   border-color: rgb(40, 40, 40);

@@ -10,13 +10,35 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+/* ==========================================================================
+primary color - (32, 204, 164)
+text color - 
+background color - (78, 247, 255) 
+accent color - (204, 32, 162)
+warning color - (255, 144, 14)
+error color - (153, 133, 70)
+============================================================================= */ 
+
 html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
 }
 article {
-  background: ivory;
+  background: rgb(32, 204, 164);
+  border-color: rgb(40, 40, 40);
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 2px;
+  color: rgb(40, 40, 40);
+  margin-left: 15%;
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 25rem;
+}
+
+section {
+  background: rgb(78, 247, 255);
   border-color: rgb(40, 40, 40);
   border-radius: 6px;
   border-style: solid;

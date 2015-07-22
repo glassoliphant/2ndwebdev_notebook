@@ -19,48 +19,6 @@ warning color - (255, 144, 14)
 error color - (153, 133, 70)
 ============================================================================= */ 
 
-html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-}
-
-body { 
- background: rgb(78, 247, 255);
-}
-
-section {
-  background: rgb(204, 162, 32);
-  border-color: rgb(40, 40, 40);
-  border-radius: 6px;
-  border-style: solid;
-  border-width: 2px;
-  color: rgb(40, 40, 40);
-  margin-left: 5%;
-  margin-top: 2rem;
-  padding: 1rem;
-}
-
-article {
-  background: rgb(32, 204, 164);
-  border-color: rgb(40, 40, 40);
-  border-radius: 6px;
-  border-style: solid;
-  border-width: 2px;
-  color: rgb(40, 40, 40);
-  margin-left: 4%;
-  margin-top: 2rem;
-  padding: 1rem;
-  width: 15rem;
-}
-
-.flex-container {
-    display: inline-flex;
-    flex-flow: row wrap;
-}
-
-
-
 
 
 
@@ -335,3 +293,58 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+body { 
+ background: rgb(78, 247, 255);
+}
+
+section {
+  background: rgb(204, 162, 32);
+  border-color: rgb(40, 40, 40);
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 2px;
+  color: rgb(40, 40, 40);
+  margin-left: 5%;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+article {
+  background: rgb(32, 204, 164);
+  border-color: rgb(40, 40, 40);
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 2px;
+  color: rgb(40, 40, 40);
+  margin-left: 4%;
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 15rem;
+}
+
+.flex-container {
+    display: inline-flex;
+    flex-flow: row wrap;
+}
+
+
+

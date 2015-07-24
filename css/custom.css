@@ -12,12 +12,15 @@ body {
 
 #sticky {
   position: fixed;
-  width: 80rem;
+  left: 0rem;
+  right: 0rem;
+  top: -2rem;
+  padding-bottom: 2rem;
   display: flex;
   flex-flow: row wrap; 
   background: rgb(204, 162, 32);
   border-color: rgb(40, 40, 40);
-  border-radius: 6px;
+  border-radius: 3px;
   border-style: solid;
   border-width: 2px;
   color: rgb(40, 40, 40);
@@ -36,7 +39,7 @@ body {
   width: 70rem;
   background: rgb(32, 204, 164);
   border-color: rgb(40, 40, 40);
-  border-radius: 6px;
+  border-radius: 3px;
   border-style: solid;
   border-width: 2px;
   color: rgb(40, 40, 40);
@@ -47,33 +50,37 @@ body {
 }
 
 .nav-ul {
-display: flex;
+  display: flex;
   flex: 1; 
   align-items: stretch; 
   flex-direction: row; 
-  list-style-type: none;
+  list-style-type: none; 
 
 }
 
 .nav {
-  display: flex;
+  display: inline-flex;
   flex: 1; 
-  align-items: stretch; 
+  align-items: flex-start; 
   flex-direction: column; 
   flex-flow: row;
   font-style: oblique;
+  text-align: center;
   list-style-type: none;
   background: rgb(32, 204, 164);
   border-color: rgb(40, 40, 40);
-  border-radius: 6px;
+  border-radius: 3px;
   border-style: solid;
   border-width: 2px;
   color: rgb(40, 40, 40);
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 2rem;
-  padding: 1rem;
   max-width: 80%;
+}
+
+#html {
+  text-align: center;
+  padding-left: 3px;
 }
 
 
@@ -86,40 +93,41 @@ display: flex;
 
 .notebook {
   display: flex;
+  -webkit-flex-direction: column;
   flex-direction: column;
   padding-top: 18rem;
 }
-
+/*
 .item {
   display: flex;
   flex: 1; 
   align-items: stretch; 
   flex-direction: column; 
 }
+*/
 
-
-@media all and (min-width: 800px) {
-  .content {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+/*@media all and (min-width: 800px) {
+.content {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 
   }
 
 @media all and (min-width: 600px) {
 
 }
-
-  .notebook {
-    display: flex;
-    flex: 1;
-  }
+*/
+.notebook {
+  display: flex;
+  flex: 1;
+}
 
 
 .notebookTab {
   background: rgb(204, 162, 32);
   border-color: rgb(40, 40, 40);
-  border-radius: 6px;
+  border-radius: 3px;
   border-style: solid;
   border-width: 2px;
   color: rgb(40, 40, 40);
@@ -132,7 +140,7 @@ display: flex;
 .cards {
   background: rgb(32, 204, 164);
   border-color: rgb(40, 40, 40);
-  border-radius: 6px;
+  border-radius: 3px;
   border-style: solid;
   border-width: 2px;
   color: rgb(40, 40, 40);
@@ -143,15 +151,24 @@ display: flex;
   max-width: 20%;
 }
 
+.journal {
+  text-align: center;
+}
+
 .flexContainer {
-    flex-flow: row wrap;
-    display: flex;
+  flex-flow: row wrap;
+  display: flex;
     
 }
 
-.inline-flex {
-    display: flex;
-    justify-content: space-around;
+.stickyfoot {
+  display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: space-around;
+  padding-top: 1rem;
 }
 
 
